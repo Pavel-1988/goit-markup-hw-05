@@ -13,9 +13,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
 
     <link rel="stylesheet" href="css/styles.css">
+    
 </head>
 <body>
-        <header >
+    <header >
                 <div class="container">
                     <div class="header-box"> 
                         <nav class="nav-box">
@@ -48,8 +49,8 @@
                         </ul>
                     </div>
                 </div>
-        </header>
-        <main >
+    </header>
+    <main >
             <!--hero-->
             <section class="hero">
                     <div class="container" >
@@ -106,9 +107,18 @@
                 <div class="container">
                     <h2 class="work-team-item">Чем мы занимаемся</h2>
                     <ul class="work-flex" >
-                        <li class="item"><img src="images/whatwedo1.jpg" alt="планшет с клавиатурой" width="370"></li>
-                        <li class="item"> <img src="images/whatwedo2.jpg" alt="ноутбук с телефоном" width="370"></li>
-                        <li class="item"><img src="images/whatwedo3.jpg" alt="планшет" width="370"></li>
+                        <li class="item-foto">
+                            <img src="images/whatwedo1.jpg" class="work-img" alt="планшет с клавиатурой" width="370">
+                            <p class="foto-text">Десктопные приложения</p>
+                        </li>
+                        <li class="item-foto">
+                            <img src="images/whatwedo2.jpg" alt="ноутбук с телефоном" width="370">
+                            <p>Мобильные приложения</p>
+                        </li>
+                        <li class="item-foto">
+                            <img src="images/whatwedo3.jpg" alt="планшет" width="370">
+                            <p>Дизайнерские решения</p>
+                        </li>
                     </ul>
                 </div>
             </section>
@@ -319,8 +329,8 @@
                 </div>
             </section>
 
-        </main>
-        <footer class="section-ftr" >
+    </main>
+    <footer class="section-ftr" >
             <div class="container ">
                 <div class="footer-box" >
                     <div class="footer-address-box">
@@ -368,8 +378,9 @@
                     </div>
                 </div>
             </div>
-        </footer>
-  
+    </footer>
+  <div class="backdrop"></div>
+<script src="./js/modal.js"></script>
 </body>
 </html>
 
